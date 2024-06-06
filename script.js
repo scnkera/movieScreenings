@@ -153,3 +153,5 @@ const seatClicked = (event) => {
 	const seat = movies[selectedMovie].seats[rowIndex][colIndex];
 	console.log(seat);
 };
+
+// select seats and detect if occupied
